@@ -66,6 +66,7 @@ Transforme
 차원 축소 (2080→512).
 
 ### 3. CNN Decoder
+CNN Encoder의 역순으로 진행하며 축소된 차원들을 업샘플링을 통해 복원시켜준다.
 
 
 ---
@@ -80,7 +81,7 @@ Transforme
 학습 과정에서 train loss는 점차 감소하였고, validation loss 기준으로 최적의 모델 가중치를 저장하여 과적합을 방지했습니다.
 
 ---
-## 복원
+
 
 
 
