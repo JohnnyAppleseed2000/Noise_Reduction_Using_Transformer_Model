@@ -1,10 +1,9 @@
 ## 잡음 제거 [ Denoiser Model ] ##
 이 잡음 제거 프로젝트는 딥러닝 기반의 오디오 잡음제거 모델입니다. 
-모델 구조는 STFT → CNN → Transformer 구조를 사용하여 여러명의 발화자의
-음성이 섞인 음원에서 한 사람만의 음성을 추출합니다.
+모델 구조는 STFT → CNN → Transformer 구조를 사용하여 한 음원에서 
+각 악기의 음원들만 추출합니다.
 
 [🔊 데모 페이지에서 바로 재생하기] https://johnnyappleseed2000.github.io/Noise_Reduction_Using_Transformer_Model/
-
 
 
 ---
